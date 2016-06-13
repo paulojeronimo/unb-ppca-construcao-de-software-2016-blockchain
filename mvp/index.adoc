@@ -1,0 +1,29 @@
+= Produto mínimo viável (MVP) utilizando a Ethereum
+
+== Funcionalidades esperadas para o MVP
+
+=== Para um Candidato (aplicação web/mobile)
+
+* Sign Up
+* Sign In
+* Meus certificados
+* Agenda de concursos
+* Certificações por concurso
+* Agendar prova
+
+=== Para a Organizadora de Eventos (aplicação web)
+
+* Registro de concursos
+* Registro de certificações
+* Ligação concurso -> certificação
+
+== Desenvolvimento utilizando a Ethereum
+
+////
+== Referências
+
+* http://www.sebrae.com.br/sites/PortalSebrae/artigos/entenda-o-que-e-lean-startup,03ebb2a178c83410VgnVCM1000003b74010aRCRD
+* http://exame.abril.com.br/pme/noticias/como-definir-meu-produto-minimo-viavel
+////
+
+// vim: set syntax=asciidoc ts=2 sw=2 expandtab:
