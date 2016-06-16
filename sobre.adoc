@@ -1,0 +1,9 @@
+= Sobre
+
+:uri-fontes: https://github.com/paulojeronimo/unb-ppca-construcao-de-software-2016-blockchain
+:uri-versao-online: http://paulojeronimo.github.io/unb-ppca-construcao-de-software-2016-blockchain
+:uri-versao-pdf: {uri-versao-online}/index.pdf
+
+Este artigo foi escrito como parte de um trabalho realizado para a http://aprender.ead.unb.br/course/view.php?id=1769[disciplina de construção de software], ministrada pelo professor http://github.com/alegomes[Alexandre Gomes], do http://ppca.unb.br[Programa de Pós-Gradução em Computação Aplicada da UnB].
+
+A {uri-versao-online}[versão online] deste artigo, bem como a {uri-versao-pdf}[no formato PDF], estão disponíveis. Todo o código fonte, tanto {uri-fontes}[deste documento] quanto dos projetos referenciados por ele, também estão acessíveis no https://github.com[GitHub] nos links referenciados.

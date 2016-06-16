@@ -1,8 +1,10 @@
-= UnB/PPCA - Construção de Software - Blockchain
-Paulo Jerônimo, paulojeronimo@gmail.com
+= Alterando a forma de realização de concursos públicos no Brasil através do uso de certificações e da Blockchain
+Paulo Jerônimo <paulojeronimo@gmail.com>
+{localdatetime}
 :toc:
 :toc-title: Conteúdo
 :numbered:
+:icons: font
 
 // URIs
 :uri-blockchain: http://computerworld.com.br/blockchain-o-que-e-e-como-funciona
@@ -11,56 +13,19 @@ Paulo Jerônimo, paulojeronimo@gmail.com
 :uri-sisu: http://sisu.mec.gov.br/
 :uri-prouni: http://siteprouni.mec.gov.br/
 
-== Introdução 
-
-Este artigo apresenta idéias e/ou soluções para empresas responsáveis pela realização de provas e/ou emissão de certificados que confiram validade aos resultados obtidos nessas provas. Apresenta um problema e descreve como o uso da tecnologia {uri-blockchain}[Blockchain] poderia contribuir para a sua solução. Também discute possíveis impactos na adoção dessa tecnologia. Esse tipo de empresa para a qual estamos propondo soluções é chamada, neste artigo, de *"Organizadora de Eventos"*.
-
-== O problema
-
-Atualmente uma pessoa participa de um concurso público, específico, para ingressar numa instituição. Vejamos, por exemplo, o caso de um profissional de direito que deseja trabalhar numa instituição como o {uri-trf-1}[Tribunal Regional Federal da 1ª Região (TRF1)]. Esse profisssional precisa, necessariamente, participar de um concurso realizado para o provimento de vagas nesse órgão. Esse concurso, obviamente, é realizado pela organizadora de eventos. Nesse contexto, diversas questões são relevantes:
-
-. Geralmente uma grande logística é montada, pela organizadora de eventos, para a realização do certame. Implicações:
-.. Necessidade de muitos (e/ou grandes) locais para a aplicação do certame.
-.. Necessidade de muitas pessoas para organizar/controlar o evento.
-.. Riscos de fatores não controlados (ex. chuvas, enchentes, falta de energia, etc).
-.. Custo elevado.
-. O profissional precisa participar do certame numa data/hora específica. Implicações:
-.. Mesmo sendo muito bom e/ou tendo grandes chances, se o profissional perder o momento perderá sua vez.
-. A nota do profissional é válida somente para aquele concurso. Implicações:
-.. O resultado do exame para um candidato não pode ser "aproveitado" em concursos similares.
-
-A organizadora de eventos deseja, gradativamente, inverter o processo de como os profissionais podem ser selecionados para trabalhar numa instituição. Ao invés de serem realizados concursos com a necessidade de grandes logísticas, os profissionais poderiam, a qualquer momento, serem certificados em suas áreas de interesse, através da participação em provas previamente agendadadas e em locais específicos.
-
-Essa inversão na forma como as pessoas fazem seu ingresso em instituições já vem ocorrendo, por exemplo, na esfera educacional. Participando do http://portal.inep.gov.br/web/enem/sobre-o-enem[Enem], alunos são "certificados" e, com base em suas notas, podem ingressar em processos (ex. {uri-sisu}[Sisu] e {uri-prouni}[Prouni]) para a obtenção de uma vaga numa instituição de ensino superior.
-
-Através da ampliação do uso de certificacões, a organizadora de eventos espera que:
-
-. Um profissional possa realizar uma prova, a qualquer momento, para melhorar sua pontuação em certificações para áreas específicas a fim de iniciar sua participação no processo seletivo de uma instituição qualquer.
-. Uma instituição possa, a qualquer momento:
-.. Fazer um filtro inicial de profissionais já pré-certificados.
-.. Solicitar a organizadora de ventos que:
-*** 1) Amplie a oferta de agendamento de provas para obtenção de certificações (se necessário, visando mais candidatos) OU
-*** 2) Organize novas etapas de seleção, ainda mais aprofundadas/específicas, apenas para candidatos já pré-certificados.
-
-== Solucionando o problema através do uso da Blockchain
-
-No contexto de uma moeda virtual como a {uri-bitcoin}[Bitcoin], um Blockchain é uma estrutura que representa uma entrada de confiabilidade financeira ou um registro de um bloco de transações. Cada transação é assinada digitalmente com o objetivo de garantir sua autenticidade e não adulteração. Além disso, cada bloco é replicado para outros nós da rede de computadores que compõem a Blockchain e, em cada um deles é uma conferência da integridade do bloco. Dessa forma, o registro e as transações existentes dentro dele são considerados invioláveis.
-
-Num conceito mais amplo, a Blockchain pode ser utilizada em qualquer situação onde se deseja um banco de dados distribuído, público, persistente e em que cada transação tenha o registro de seu momento de ocorrência. Aplicações executadas na Blockchain são descentralizadas e conhecidas por Dapps.
-
-Para se chegar a uma solução para o problema apresentado, a Blockchain será utilizada de forma a tornar público o registro das certificações das pessoas. Apesar de públicas, as informações pessoais relativas ao proprietário da certificação permanecerão, ainda, em sigilo. Qualquer pessoa que desejasse ter seus conhecimentos auferidos pagaria pelo direito de agendamento/realização de provas, a qualquer momento que desejasse, sob condições pré-estabelecidas pela orgnanizadora de eventos. Assim, essa pessoa poderiam melhorar suas certificações gradualmente, a seu tempo, visando a participação em processos seletivos para as instituições para as quais desejasse estudar ou trabalhar. Essas instituições, por sua vez, teriam confiabilidade nos certificados armazenados na Blockchain pela própria estrutura de segurança já oferecida por ela, no caso de uso por moedas virtuais.
-
-A idéia principal de uso da Blockchain numa solução para o problema, envolve o uso dos seguintes atores:
-
-. Uma pessoa que deseja ter seus conhecimentos auferidos.
-. O organizador de eventos que proverá um ambiente para que uma pessoa possa agendar, realizar uma prova e visualizar um certificado que lhe conferirá validade a uma nota recebida para um exame em uma área específica de conhecimento;
-. Instituições de ensino e/ou trabalho, que farão buscas por pessoas com notas e pagarão a organizadora de eventos para prosseguir com o processo de seleção de profissionais já pré-certificados.
-
 :leveloffset: +1
+
+include::introducao.adoc[]
+
+include::o-problema.adoc[]
 
 include::blockchain/index.adoc[]
 
+include::a-blockchain-nesta-solucao.adoc[]
+
 include::mvp/index.adoc[]
+
+include::sobre.adoc[]
 
 :leveloffset: -1
 

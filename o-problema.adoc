@@ -1,0 +1,26 @@
+= O problema
+
+Atualmente uma pessoa participa de um concurso público, específico, para ingressar numa instituição. Vejamos, por exemplo, o caso de um profissional de direito que deseja trabalhar numa instituição como o {uri-trf-1}[Tribunal Regional Federal da 1ª Região (TRF1)]. Esse profisssional precisa, necessariamente, participar de um concurso realizado para o provimento de vagas nesse órgão. Esse concurso, obviamente, é realizado pela organizadora de eventos. Nesse contexto, diversas questões são relevantes:
+
+. Geralmente uma grande logística é montada, pela organizadora de eventos, para a realização do certame. Implicações:
+.. Necessidade de muitos (e/ou grandes) locais para a aplicação do certame.
+.. Necessidade de muitas pessoas para organizar/controlar o evento.
+.. Riscos de fatores não controlados (ex. chuvas, enchentes, falta de energia, etc).
+.. Custo elevado.
+. O profissional precisa participar do certame numa data/hora específica. Implicações:
+.. Mesmo sendo muito bom e/ou tendo grandes chances, se o profissional perder o momento perderá sua vez.
+. A nota do profissional é válida somente para aquele concurso. Implicações:
+.. O resultado do exame para um candidato não pode ser "aproveitado" em concursos similares.
+
+A organizadora de eventos deseja, gradativamente, inverter o processo de como os profissionais podem ser selecionados para trabalhar numa instituição. Ao invés de serem realizados concursos com a necessidade de grandes logísticas, os profissionais poderiam, a qualquer momento, serem certificados em suas áreas de interesse, através da participação em provas previamente agendadadas e em locais específicos.
+
+Essa inversão na forma como as pessoas fazem seu ingresso em instituições já vem ocorrendo, por exemplo, na esfera educacional. Participando do http://portal.inep.gov.br/web/enem/sobre-o-enem[Enem], alunos são "certificados" e, com base em suas notas, podem ingressar em processos (ex. {uri-sisu}[Sisu] e {uri-prouni}[Prouni]) para a obtenção de uma vaga numa instituição de ensino superior.
+
+Através da ampliação do uso de certificacões, a organizadora de eventos espera que:
+
+. Um profissional possa realizar uma prova, a qualquer momento, para melhorar sua pontuação em certificações para áreas específicas a fim de iniciar sua participação no processo seletivo de uma instituição qualquer.
+. Uma instituição possa, a qualquer momento:
+.. Fazer um filtro inicial de profissionais já pré-certificados.
+.. Solicitar a organizadora de ventos que:
+*** 1) Amplie a oferta de agendamento de provas para obtenção de certificações (se necessário, visando mais candidatos) OU
+*** 2) Organize novas etapas de seleção, ainda mais aprofundadas/específicas, apenas para candidatos já pré-certificados.

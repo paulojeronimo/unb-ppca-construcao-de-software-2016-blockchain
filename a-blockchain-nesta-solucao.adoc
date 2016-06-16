@@ -1,0 +1,9 @@
+= Utilizando a Blockchain no contexto desta solução
+
+Para se chegar a uma solução para o problema apresentado, a Blockchain será utilizada de forma a tornar público o registro das certificações das pessoas. Apesar de públicas, as informações pessoais relativas ao proprietário da certificação permanecerão, ainda, em sigilo. Qualquer pessoa que desejasse ter seus conhecimentos auferidos pagaria pelo direito de agendamento/realização de provas, a qualquer momento que desejasse, sob condições pré-estabelecidas pela orgnanizadora de eventos. Assim, essa pessoa poderia melhorar suas certificações gradualmente, a seu tempo, visando a participação em processos seletivos para as instituições para as quais desejasse estudar ou trabalhar. Essas instituições, por sua vez, teriam confiabilidade nos certificados armazenados na Blockchain pela própria estrutura de segurança já oferecida por ela, no caso de uso por moedas virtuais.
+
+A idéia principal de uso da Blockchain numa solução para o problema, envolve o uso dos seguintes atores:
+
+. Uma pessoa que deseja ter seus conhecimentos auferidos.
+. O organizador de eventos que proverá um ambiente para que uma pessoa possa agendar, realizar uma prova e visualizar um certificado que lhe conferirá validade a uma nota recebida para um exame em uma área específica de conhecimento;
+. Instituições de ensino e/ou trabalho, que farão buscas por pessoas com notas e pagarão a organizadora de eventos para prosseguir com o processo de seleção de profissionais já pré-certificados.

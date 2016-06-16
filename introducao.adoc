@@ -1,0 +1,3 @@
+= Introdução 
+
+Este artigo apresenta idéias e/ou soluções para empresas responsáveis pela realização de provas e/ou emissão de certificados que confiram validade aos resultados obtidos nessas provas. Apresenta um problema e descreve como o uso da tecnologia {uri-blockchain}[Blockchain] poderia contribuir para a sua solução. Também discute possíveis impactos na adoção dessa tecnologia. Esse tipo de empresa para a qual estamos propondo soluções é chamada, neste artigo, de *"Organizadora de Eventos"*.

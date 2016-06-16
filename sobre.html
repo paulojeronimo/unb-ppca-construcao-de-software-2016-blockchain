@@ -5,8 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.4">
-<meta name="author" content="Paulo Jerônimo">
-<title>Alterando a forma de realização de concursos públicos no Brasil através do uso de certificações e da Blockchain</title>
+<title>Sobre</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -417,253 +416,22 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 .hide-for-print{display:none!important}
 .show-for-print{display:inherit!important}}
 </style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body class="article">
 <div id="header">
-<h1>Alterando a forma de realização de concursos públicos no Brasil através do uso de certificações e da Blockchain</h1>
-<div class="details">
-<span id="author" class="author">Paulo Jerônimo</span><br>
-<span id="email" class="email"><a href="mailto:paulojeronimo@gmail.com">paulojeronimo@gmail.com</a></span><br>
-<span id="revdate">2016-06-15 21:00:06 BRT</span>
-</div>
-<div id="toc" class="toc">
-<div id="toctitle">Conteúdo</div>
-<ul class="sectlevel1">
-<li><a href="#_introdução">1. Introdução</a></li>
-<li><a href="#_o_problema">2. O problema</a></li>
-<li><a href="#_a_blockchain">3. A Blockchain</a>
-<ul class="sectlevel2">
-<li><a href="#_lisk">3.1. Lisk</a></li>
-<li><a href="#_multichain">3.2. Multichain</a></li>
-<li><a href="#_ethereum">3.3. Ethereum</a></li>
-</ul>
-</li>
-<li><a href="#_utilizando_a_blockchain_no_contexto_desta_solução">4. Utilizando a Blockchain no contexto desta solução</a></li>
-<li><a href="#_produto_mínimo_viável_mvp_utilizando_a_ethereum">5. Produto mínimo viável (MVP) utilizando a Ethereum</a>
-<ul class="sectlevel2">
-<li><a href="#_funcionalidades_esperadas_para_o_mvp">5.1. Funcionalidades esperadas para o MVP</a></li>
-<li><a href="#_desenvolvimento_utilizando_a_ethereum">5.2. Desenvolvimento utilizando a Ethereum</a></li>
-</ul>
-</li>
-<li><a href="#_sobre">6. Sobre</a></li>
-</ul>
-</div>
+<h1>Sobre</h1>
 </div>
 <div id="content">
-<div class="sect1">
-<h2 id="_introdução">1. Introdução</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Este artigo apresenta idéias e/ou soluções para empresas responsáveis pela realização de provas e/ou emissão de certificados que confiram validade aos resultados obtidos nessas provas. Apresenta um problema e descreve como o uso da tecnologia <a href="http://computerworld.com.br/blockchain-o-que-e-e-como-funciona">Blockchain</a> poderia contribuir para a sua solução. Também discute possíveis impactos na adoção dessa tecnologia. Esse tipo de empresa para a qual estamos propondo soluções é chamada, neste artigo, de <strong>"Organizadora de Eventos"</strong>.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_o_problema">2. O problema</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Atualmente uma pessoa participa de um concurso público, específico, para ingressar numa instituição. Vejamos, por exemplo, o caso de um profissional de direito que deseja trabalhar numa instituição como o <a href="http://portal.trf1.jus.br/portaltrf1/pagina-inicial.htm">Tribunal Regional Federal da 1ª Região (TRF1)</a>. Esse profisssional precisa, necessariamente, participar de um concurso realizado para o provimento de vagas nesse órgão. Esse concurso, obviamente, é realizado pela organizadora de eventos. Nesse contexto, diversas questões são relevantes:</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Geralmente uma grande logística é montada, pela organizadora de eventos, para a realização do certame. Implicações:</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Necessidade de muitos (e/ou grandes) locais para a aplicação do certame.</p>
-</li>
-<li>
-<p>Necessidade de muitas pessoas para organizar/controlar o evento.</p>
-</li>
-<li>
-<p>Riscos de fatores não controlados (ex. chuvas, enchentes, falta de energia, etc).</p>
-</li>
-<li>
-<p>Custo elevado.</p>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p>O profissional precisa participar do certame numa data/hora específica. Implicações:</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Mesmo sendo muito bom e/ou tendo grandes chances, se o profissional perder o momento perderá sua vez.</p>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p>A nota do profissional é válida somente para aquele concurso. Implicações:</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>O resultado do exame para um candidato não pode ser "aproveitado" em concursos similares.</p>
-</li>
-</ol>
-</div>
-</li>
-</ol>
-</div>
-<div class="paragraph">
-<p>A organizadora de eventos deseja, gradativamente, inverter o processo de como os profissionais podem ser selecionados para trabalhar numa instituição. Ao invés de serem realizados concursos com a necessidade de grandes logísticas, os profissionais poderiam, a qualquer momento, serem certificados em suas áreas de interesse, através da participação em provas previamente agendadadas e em locais específicos.</p>
-</div>
-<div class="paragraph">
-<p>Essa inversão na forma como as pessoas fazem seu ingresso em instituições já vem ocorrendo, por exemplo, na esfera educacional. Participando do <a href="http://portal.inep.gov.br/web/enem/sobre-o-enem">Enem</a>, alunos são "certificados" e, com base em suas notas, podem ingressar em processos (ex. <a href="http://sisu.mec.gov.br/">Sisu</a> e <a href="http://siteprouni.mec.gov.br/">Prouni</a>) para a obtenção de uma vaga numa instituição de ensino superior.</p>
-</div>
-<div class="paragraph">
-<p>Através da ampliação do uso de certificacões, a organizadora de eventos espera que:</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Um profissional possa realizar uma prova, a qualquer momento, para melhorar sua pontuação em certificações para áreas específicas a fim de iniciar sua participação no processo seletivo de uma instituição qualquer.</p>
-</li>
-<li>
-<p>Uma instituição possa, a qualquer momento:</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Fazer um filtro inicial de profissionais já pré-certificados.</p>
-</li>
-<li>
-<p>Solicitar a organizadora de ventos que:</p>
-<div class="ulist">
-<ul>
-<li>
-<p>1) Amplie a oferta de agendamento de provas para obtenção de certificações (se necessário, visando mais candidatos) OU</p>
-</li>
-<li>
-<p>2) Organize novas etapas de seleção, ainda mais aprofundadas/específicas, apenas para candidatos já pré-certificados.</p>
-</li>
-</ul>
-</div>
-</li>
-</ol>
-</div>
-</li>
-</ol>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_a_blockchain">3. A Blockchain</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>No contexto de uma moeda virtual como a <a href="https://www.bitcoinbrasil.com.br/o-que-e-bitcoin">Bitcoin</a>, a Blockchain é uma estrutura que representa uma entrada de confiabilidade financeira ou um registro de um bloco de transações. Cada transação é assinada digitalmente com o objetivo de garantir sua autenticidade e não adulteração. Além disso, cada bloco é replicado para outros nós da rede de computadores que compõem a Blockchain e, em cada um deles é uma conferência da integridade do bloco. Dessa forma, o registro e as transações existentes dentro dele são considerados invioláveis.</p>
-</div>
-<div class="paragraph">
-<p>Num conceito mais amplo, a Blockchain pode ser utilizada em qualquer situação onde se deseja um banco de dados distribuído, público, persistente e em que cada transação tenha o registro de seu momento de ocorrência. Aplicações executadas na Blockchain são descentralizadas e conhecidas por Dapps.</p>
-</div>
-<div class="sect2">
-<h3 id="_lisk">3.1. Lisk</h3>
-
-</div>
-<div class="sect2">
-<h3 id="_multichain">3.2. Multichain</h3>
-
-</div>
-<div class="sect2">
-<h3 id="_ethereum">3.3. Ethereum</h3>
-
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_utilizando_a_blockchain_no_contexto_desta_solução">4. Utilizando a Blockchain no contexto desta solução</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Para se chegar a uma solução para o problema apresentado, a Blockchain será utilizada de forma a tornar público o registro das certificações das pessoas. Apesar de públicas, as informações pessoais relativas ao proprietário da certificação permanecerão, ainda, em sigilo. Qualquer pessoa que desejasse ter seus conhecimentos auferidos pagaria pelo direito de agendamento/realização de provas, a qualquer momento que desejasse, sob condições pré-estabelecidas pela orgnanizadora de eventos. Assim, essa pessoa poderia melhorar suas certificações gradualmente, a seu tempo, visando a participação em processos seletivos para as instituições para as quais desejasse estudar ou trabalhar. Essas instituições, por sua vez, teriam confiabilidade nos certificados armazenados na Blockchain pela própria estrutura de segurança já oferecida por ela, no caso de uso por moedas virtuais.</p>
-</div>
-<div class="paragraph">
-<p>A idéia principal de uso da Blockchain numa solução para o problema, envolve o uso dos seguintes atores:</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Uma pessoa que deseja ter seus conhecimentos auferidos.</p>
-</li>
-<li>
-<p>O organizador de eventos que proverá um ambiente para que uma pessoa possa agendar, realizar uma prova e visualizar um certificado que lhe conferirá validade a uma nota recebida para um exame em uma área específica de conhecimento;</p>
-</li>
-<li>
-<p>Instituições de ensino e/ou trabalho, que farão buscas por pessoas com notas e pagarão a organizadora de eventos para prosseguir com o processo de seleção de profissionais já pré-certificados.</p>
-</li>
-</ol>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_produto_mínimo_viável_mvp_utilizando_a_ethereum">5. Produto mínimo viável (MVP) utilizando a Ethereum</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="_funcionalidades_esperadas_para_o_mvp">5.1. Funcionalidades esperadas para o MVP</h3>
-<div class="sect3">
-<h4 id="_para_um_candidato_aplicação_web_mobile">5.1.1. Para um Candidato (aplicação web/mobile)</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>Sign Up</p>
-</li>
-<li>
-<p>Sign In</p>
-</li>
-<li>
-<p>Meus certificados</p>
-</li>
-<li>
-<p>Agenda de concursos</p>
-</li>
-<li>
-<p>Certificações por concurso</p>
-</li>
-<li>
-<p>Agendar prova</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_para_a_organizadora_de_eventos_aplicação_web">5.1.2. Para a Organizadora de Eventos (aplicação web)</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>Registro de concursos</p>
-</li>
-<li>
-<p>Registro de certificações</p>
-</li>
-<li>
-<p>Ligação concurso &#8594; certificação</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_desenvolvimento_utilizando_a_ethereum">5.2. Desenvolvimento utilizando a Ethereum</h3>
-
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_sobre">6. Sobre</h2>
-<div class="sectionbody">
 <div class="paragraph">
 <p>Este artigo foi escrito como parte de um trabalho realizado para a <a href="http://aprender.ead.unb.br/course/view.php?id=1769">disciplina de construção de software</a>, ministrada pelo professor <a href="http://github.com/alegomes">Alexandre Gomes</a>, do <a href="http://ppca.unb.br">Programa de Pós-Gradução em Computação Aplicada da UnB</a>.</p>
 </div>
 <div class="paragraph">
-<p>A <a href="http://paulojeronimo.github.io/unb-ppca-construcao-de-software-2016-blockchain">versão online</a> deste artigo, bem como a <a href="http://paulojeronimo.github.io/unb-ppca-construcao-de-software-2016-blockchain/index.pdf">no formato PDF</a>, estão disponíveis. Todo o código fonte, tanto <a href="https://github.com/paulojeronimo/unb-ppca-construcao-de-software-2016-blockchain">deste documento</a> quanto dos projetos referenciados por ele, também estão acessíveis no <a href="https://github.com">GitHub</a> nos links referenciados.</p>
-</div>
-</div>
+<p>A versão online deste artigo está disponível em <a href="http://paulojeronimo.github.io/unb-ppca-construcao-de-software-2016-blockchain" class="bare">http://paulojeronimo.github.io/unb-ppca-construcao-de-software-2016-blockchain</a>. Todos o <a href="https://github.com/paulojeronimo/unb-ppca-construcao-de-software-2016-blockchain">código fonte</a> também está acessível no GitHub do autor.</p>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2016-06-15 20:36:18 BRT
+Last updated 2016-06-15 20:50:35 BRT
 </div>
 </div>
 </body>
